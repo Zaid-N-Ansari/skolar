@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>My Profile</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assignment 1</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
@@ -39,6 +41,13 @@
 		li {
 			padding: 10px;
 			border-bottom: 1px solid #ccc;
+			user-select: none;
+			opacity: 0.9;
+			transition: opacity 100ms ease;
+		}
+
+		li:hover {
+			opacity: 1;
 		}
 
 		li:last-child {
