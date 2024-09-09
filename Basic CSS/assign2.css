@@ -1,0 +1,61 @@
+/* Global styles */
+body {
+	background-color: #333; /* Dark gray background */
+	color: #fff; /* White text color */
+	font-family: Arial, sans-serif;
+	max-width: 100vw;
+	height: 100vh;
+}
+
+div{
+	margin: auto auto 20px auto;
+	max-width: 50%;
+	height: 30%;
+}
+
+/* Class selector: style elements with class "highlight" */
+.highlight {
+	background-color: #6600cc; /* Purple background */
+	color: #fff; /* White text color */
+	padding: 10px; /* Add some padding */
+	border: 1px solid #7700dd; /* Add a purple border */
+	border-radius: 5px; /* Add a slight border radius */
+}
+
+/* Gradient background */
+.gradient-box {
+	background-image: linear-gradient(to bottom, #8323e3, #5601a0); /* Purple gradient */
+	padding: 10px; /* Add some padding */
+	border: 1px solid #555; /* Add a dark gray border */
+	border-radius: 5px; /* Add a slight border radius */
+}
+
+/* Background image */
+.image-box {
+	background-image: url('https://picsum.photos/200/100'); /* Use a background image */
+	background-size: cover; /* Cover the entire element */
+	background-position: center; /* Center the image */
+	padding: 10px; /* Add some padding */
+	border: 1px solid #555; /* Add a dark gray border */
+	border-radius: 5px; /* Add a slight border radius */
+}
+
+/* Repeated background image */
+.repeated-image-box {
+	background-image: url('https://picsum.photos/50/50'); /* Use a background image */
+	background-size: 50px 50px; /* Set the size of the image */
+	background-repeat: repeat; /* Repeat the image */
+	padding: 10px; /* Add some padding */
+	border: 1px solid #555; /* Add a dark gray border */
+	border-radius: 5px; /* Add a slight border radius */
+}
+
+/* Positioned background image */
+.positioned-image-box {
+	background-image: url('https://picsum.photos/200/100'); /* Use a background image */
+	background-size: cover; /* Cover the entire element */
+	background-position: 20% 30%; /* Position the image */
+	padding: 10px; /* Add some padding */
+	border: 1px solid #555; /* Add a dark gray border */
+	border-radius: 5px; /* Add a slight border radius */
+}

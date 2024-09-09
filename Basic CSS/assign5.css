@@ -1,0 +1,138 @@
+/* Global Styles */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	background-color: #333;
+}
+
+.container {
+	display: flex;
+	width: 80%;
+	margin: 40px auto;
+	background-color: #f0f0f0;
+	padding: 20px;
+		border: 1px solid #ddd;
+	border-radius: 10px;
+	position: relative;
+	background-color: #444; /* Dark gray background */
+	color: #333; /* White text color */
+}
+p{
+	position: absolute;
+	top: 0%;
+	left: 1%;
+	color: #f0f0f0;
+}
+
+.item {
+	background-color: #fff;
+	padding: 20px;
+	margin: 10px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+
+/* Flexbox Properties */
+
+.container.row-reverse {
+	flex-direction: row-reverse;
+}
+
+.container.column {
+	flex-direction: column;
+}
+
+.container.column-reverse {
+	flex-direction: column-reverse;
+}
+
+.container.justify-start {
+	justify-content: flex-start;
+}
+
+.container.justify-end {
+	justify-content: flex-end;
+}
+
+.container.justify-center {
+	justify-content: center;
+}
+
+.container.justify-space-between {
+	justify-content: space-between;
+}
+
+.container.justify-space-around {
+	justify-content: space-around;
+}
+
+.container.align-start {
+	align-items: flex-start;
+}
+
+.container.align-end {
+	align-items: flex-end;
+}
+
+.container.align-center {
+	align-items: center;
+}
+
+.container.align-baseline {
+	align-items: baseline;
+}
+
+.container.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.container.flex-wrap-reverse {
+	flex-wrap: wrap-reverse;
+}
+
+.container.flex-grow {
+	flex-grow: 1;
+}
+
+.container.flex-grow-item {
+	flex-grow: 2;
+}
+
+.container.flex-shrink {
+	flex-shrink: 1;
+}
+
+.container.flex-shrink-item {
+	flex-shrink: 2;
+}
+
+.container.align-content-start {
+	align-content: flex-start;
+}
+
+.container.align-content-end {
+	align-content: flex-end;
+}
+
+.container.align-content-center {
+	align-content: center;
+}
+
+.container.align-content-space-between {
+	align-content: space-between;
+}
+
+.container.align-content-space-around {
+	align-content: space-around;
+}
+
+.container.gap {
+	gap: 20px;
+}
