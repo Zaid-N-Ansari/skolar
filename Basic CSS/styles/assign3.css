@@ -1,0 +1,73 @@
+/* Global styles */
+body {
+	background-color: #333; /* Dark gray background */
+	color: #fff; /* White text color */
+	font-family: Arial, sans-serif;
+}
+
+/* Serif font family */
+.serif {
+	font-family: Georgia, serif; /* Use a serif font family */
+	font-size: 16px; /* Set the font size */
+	line-height: 1.5; /* Set the line height */
+}
+
+/* Sans-serif font family */
+.sans-serif {
+	font-family: Arial, sans-serif; /* Use a sans-serif font family */
+	font-size: 16px; /* Set the font size */
+	line-height: 1.5; /* Set the line height */
+}
+
+/* Monospace font family */
+.monospace {
+	font-family: Courier, monospace; /* Use a monospace font family */
+	font-size: 16px; /* Set the font size */
+	line-height: 1.5; /* Set the line height */
+}
+
+/* Large font size */
+.large-text {
+	font-size: 24px; /* Set the font size to large */
+	line-height: 1.5; /* Set the line height */
+}
+
+/* Small font size */
+.small-text {
+	font-size: 12px; /* Set the font size to small */
+	line-height: 1.5; /* Set the line height */
+}
+
+/* Bold font weight */
+.bold-text {
+	font-weight: bold; /* Set the font weight to bold */
+	font-size: 16px; /* Set the font size */
+	line-height: 1.5; /* Set the line height */
+}
+
+/* Italic font style */
+.italic-text {
+	font-style: italic; /* Set the font style to italic */
+	font-size: 16px; /* Set the font size */
+	line-height: 1.5; /* Set the line height */
+}
+
+/* Uppercase text transform */
+.uppercase-text {
+	text-transform: uppercase; /* Set the text transform to uppercase */
+	font-size: 16px; /* Set the font size */
+	line-height: 1.5; /* Set the line height */
+}
+
+/* Lowercase text transform */
+.lowercase-text {
+	text-transform: lowercase; /* Set the text transform to lowercase */
+	font-size: 16px; /* Set the font size */
+	line-height: 1.5; /* Set the line height */
+}
+
+/* Custom line height */
+.line-height {
+	line-height: 2; /* Set the line height to 2 */
+	font-size: 16px; /* Set the font size */
+}

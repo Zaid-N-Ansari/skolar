@@ -1,0 +1,52 @@
+/* Basic reset and styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333; /* Dark background for contrast */
+}
+
+.transform-demo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db; /* Blue color */
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Transform examples */
+.transform1 {
+    transform: translate(50px, 50px);
+}
+
+.transform2 {
+    transform: rotate(45deg);
+}
+
+.transform3 {
+    transform: scale(1.5);
+}
+
+.transform4 {
+    transform: skew(20deg, 10deg);
+}
+
+.transform5 {
+    transform: translate(30px, -20px) rotate(30deg) scale(1.2) skew(10deg, 5deg);
+}
